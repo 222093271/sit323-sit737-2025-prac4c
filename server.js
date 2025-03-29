@@ -195,8 +195,6 @@ app.get('/modulo', (req, res) => {
     res.json({ result });
 });
 
-
-
 // Start server
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
