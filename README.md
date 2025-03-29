@@ -19,7 +19,7 @@ The newly added features include:
 
 The updated version also includes more thorough validation, user-friendly error messages, and an improved home page using basic HTML and CSS styling. Testing, logging, and proper GitHub management were performed as per submission guidelines.
 
-All work was completed using VS Code installed on a local machine, with Node.js and Git tools properly configured. No online IDEs such as GitHub Codespaces were used.
+All work was completed using VS Code installed on a local machine, with Node.js and Git tools properly configured. 
 
 
 ## Development Environment Setup
