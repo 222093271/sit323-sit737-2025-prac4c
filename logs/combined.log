@@ -1,0 +1,32 @@
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/favicon.ico"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"16"},"service":"calculator-microservice","url":"/sqrt?num=16"}
+{"level":"info","message":"Sqrt: sqrt(16) = 4","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"6"},"service":"calculator-microservice","url":"/sqrt?num=6"}
+{"level":"info","message":"Sqrt: sqrt(6) = 2.449489742783178","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"16"},"service":"calculator-microservice","url":"/sqrt?num=16"}
+{"level":"info","message":"Sqrt: sqrt(16) = 4","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"-4"},"service":"calculator-microservice","url":"/sqrt?num=-4"}
+{"level":"error","message":"Sqrt Error: Cannot take square root of negative | num=-4","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"10","num2":"4"},"service":"calculator-microservice","url":"/subtract?num1=10&num2=4"}
+{"level":"info","message":"Subtraction: 10 - 4 = 6","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"10","num2":"3"},"service":"calculator-microservice","url":"/modulo?num1=10&num2=3"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"18","num2":"3"},"service":"calculator-microservice","url":"/modulo?num1=18&num2=3"}
+{"level":"info","message":"Modulo: 18 % 3 = 0","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"17","num2":"3"},"service":"calculator-microservice","url":"/modulo?num1=17&num2=3"}
+{"level":"info","message":"Modulo: 17 % 3 = 2","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"10","num2":"3"},"service":"calculator-microservice","url":"/modulo?num1=10&num2=3"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"base":"2","exp":"3"},"service":"calculator-microservice","url":"/power?base=2&exp=3"}
+{"level":"info","message":"Power: 2^3 = 8","service":"calculator-microservice"}
