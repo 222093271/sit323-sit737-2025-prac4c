@@ -11,11 +11,11 @@ This project, part of the SIT737-2025-Prac4C task, builds upon the previous calc
 
 The newly added features include:
 
-•	Exponentiation (e.g., 2^3)
+*	Exponentiation (e.g., 2^3)
 
-•	Square root (e.g., √16)
+*	Square root (e.g., √16)
 
-•	Modulo (e.g., 10 % 3)
+*	Modulo (e.g., 10 % 3)
 
 The updated version also includes more thorough validation, user-friendly error messages, and an improved home page using basic HTML and CSS styling. Testing, logging, and proper GitHub management were performed as per submission guidelines.
 
@@ -26,13 +26,13 @@ All work was completed using VS Code installed on a local machine, with Node.js 
 
 Tools and Software Used:
 
-•	Visual Studio Code: https://code.visualstudio.com
+*	Visual Studio Code: https://code.visualstudio.com
 
-•	Node.js & NPM: https://nodejs.org
+*	Node.js & NPM: https://nodejs.org
 
-•	Git: https://git-scm.com
+*	Git: https://git-scm.com
 
-•	Winston Logging Library
+*	Winston Logging Library
 
 
 # Step-by-Step Development Process
@@ -136,8 +136,7 @@ After verifying the code and logs, the following commands were used to push to G
 
 git add .
 
-git commit -m "Enhanced calculator microservice with advanced operations"
-
+git commit -m "Enhanced calculator microservice with advanced operations"*
 git push -u origin main
 
 ## Logging Setup
