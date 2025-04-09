@@ -1,4 +1,4 @@
-# SIT737-2025-Prac4C – Enhanced Calculator Microservice
+# SIT323-SIT737-2025-Prac4C – Enhanced Calculator Microservice
 
 ### Author: Inwang Ubong Marshal (222093271)
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project, part of the SIT737-2025-Prac4C task, builds upon the previous calculator microservice developed in Task 4.1P. The goal is to expand its capabilities by incorporating additional arithmetic functions, refining error handling mechanisms, and improving the overall user experience via enhanced frontend presentation. The project is developed using Node.js and Express, with Winston used for logging system activities, including request tracking and error reporting.
+This project, part of the SIT323-SIT737-2025-Prac4C task, builds upon the previous calculator microservice developed in Task 4.1P. The goal is to expand its capabilities by incorporating additional arithmetic functions, refining error handling mechanisms, and improving the overall user experience via enhanced frontend presentation. The project is developed using Node.js and Express, with Winston used for logging system activities, including request tracking and error reporting.
 
 The newly added features include:
 
