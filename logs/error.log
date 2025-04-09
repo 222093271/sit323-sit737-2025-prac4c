@@ -1,1 +1,4 @@
 {"level":"error","message":"Sqrt Error: Cannot take square root of negative | num=-4","service":"calculator-microservice"}
+{"level":"error","message":"Modulo Error: Modulo by zero is not allowed | num1=10, num2=0","service":"calculator-microservice"}
+{"level":"error","message":"Sqrt Error: Cannot take square root of negative | num=-25","service":"calculator-microservice"}
+{"level":"error","message":"Power Error: Inputs must be numbers | base=abc, exp=3","service":"calculator-microservice"}

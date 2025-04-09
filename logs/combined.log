@@ -30,3 +30,28 @@
 {"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
 {"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"base":"2","exp":"3"},"service":"calculator-microservice","url":"/power?base=2&exp=3"}
 {"level":"info","message":"Power: 2^3 = 8","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/favicon.ico"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"base":"2","exp":"3"},"service":"calculator-microservice","url":"/power?base=2&exp=3"}
+{"level":"info","message":"Power: 2^3 = 8","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"16"},"service":"calculator-microservice","url":"/sqrt?num=16"}
+{"level":"info","message":"Sqrt: sqrt(16) = 4","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"10","num2":"3"},"service":"calculator-microservice","url":"/modulo?num1=10&num2=3"}
+{"level":"info","message":"Modulo: 10 % 3 = 1","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num1":"10","num2":"0"},"service":"calculator-microservice","url":"/modulo?num1=10&num2=0"}
+{"level":"error","message":"Modulo Error: Modulo by zero is not allowed | num1=10, num2=0","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"16"},"service":"calculator-microservice","url":"/sqrt?num=16"}
+{"level":"info","message":"Sqrt: sqrt(16) = 4","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"num":"-25"},"service":"calculator-microservice","url":"/sqrt?num=-25"}
+{"level":"error","message":"Sqrt Error: Cannot take square root of negative | num=-25","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{},"service":"calculator-microservice","url":"/"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"base":"2","exp":"3"},"service":"calculator-microservice","url":"/power?base=2&exp=3"}
+{"level":"info","message":"Power: 2^3 = 8","service":"calculator-microservice"}
+{"ip":"::1","level":"info","message":"Incoming request","method":"GET","query":{"base":"abc","exp":"3"},"service":"calculator-microservice","url":"/power?base=abc&exp=3"}
+{"level":"error","message":"Power Error: Inputs must be numbers | base=abc, exp=3","service":"calculator-microservice"}
